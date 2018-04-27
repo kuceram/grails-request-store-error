@@ -1,6 +1,8 @@
 package store.request
 
-class TestController {
+class MyController {
+
+    static namespace = 'space'
 
     def index() {
         println("This is it: ${request.test}")

@@ -13,6 +13,6 @@ class UrlMappings {
         "500"(view:'/error')
         "404"(view:'/notFound')
 
-        "/test"(controller: 'test', namespace: 'test', action: 'index', method: 'GET')
+        "/test"(controller: 'my', namespace: 'space', action: 'index', method: 'GET')
     }
 }
