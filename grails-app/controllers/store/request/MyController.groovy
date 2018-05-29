@@ -9,4 +9,10 @@ class MyController {
 
         return request.test ?: 'nothing!!'
     }
+
+    def secret() {
+        println("Secret is: ${request.test}")
+
+        return request.test ?: 'secret'
+    }
 }
